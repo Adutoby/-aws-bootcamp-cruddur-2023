@@ -74,7 +74,7 @@ Add an alarm name of choice, add description if you want and click on next
 
 Preview and click on create alarm
 
-Note: ensure to confirm SNS message sent to the endpoint(the email provided in the alarm setup)
+Note: Ensure to confirm SNS message sent to the endpoint(the email provided in the alarm setup)
 
 ![](https://github.com/Adutoby/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/Week0_Images/Allalarms.png)
 
@@ -83,7 +83,7 @@ Note: ensure to confirm SNS message sent to the endpoint(the email provided in t
 
 Navigate to Budgets under the AWS Billing service in your root account and setup your preffered budget amount.
 
-**Note**  after two free budget setup you will be charged for additional budget setup.
+**Note**  After two free budget are setup you will be charged for additional budget setup.
 
 ![](https://github.com/Adutoby/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/Week0_Images/Budgets.png)
 
@@ -114,7 +114,7 @@ tasks:
 
 Refer to AWS documentation on how to set [Environment Variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
 
-Input your secret credentials generated with your user account with the ""
+Input your secret credentials generated with your user account within the ""
 
 ````
 export AWS_ACCESS_KEY_ID=""
@@ -122,7 +122,7 @@ export AWS_SECRET_ACCESS_KEY=""
 export AWS_DEFAULT_REGION=us-east-1
 ````
 
-Set the env var for Gitpod to remember the credentials if we relaunch our workspaces using the commands
+Set the env var for Gitpod to remember the credentials when relaunching our workspaces using the commands
 
 ```
 gp env AWS_ACCESS_KEY_ID=""
